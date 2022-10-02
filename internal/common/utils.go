@@ -57,7 +57,8 @@ func SendEvent(event *dtos.Event, correlationID string, dic *di.Container) {
 	configuration := container.ConfigurationFrom(dic.Get)
 	ctx := context.WithValue(context.Background(), common.CorrelationHeader, correlationID) // nolint: staticcheck
 	req := requests.NewAddEventRequest(*event)
-
+	marshal, _ := json.Marshal(req)
+	lc.Debugf("Request Event  : %s ", string(marshal))
 	bytes, encoding, err := req.Encode()
 	if err != nil {
 		lc.Error(err.Error())
@@ -81,6 +82,7 @@ func SendEvent(event *dtos.Event, correlationID string, dic *di.Container) {
 			lc.Errorf("Failed to publish event to MessageBus: %s", err)
 		}
 		lc.Debugf("Event(profileName: %s, deviceName: %s, sourceName: %s, id: %s) published to MessageBus", event.ProfileName, event.DeviceName, event.SourceName, event.Id)
+
 	} else {
 		ec := bootstrapContainer.EventClientFrom(dic.Get)
 		_, err := ec.Add(ctx, req)
