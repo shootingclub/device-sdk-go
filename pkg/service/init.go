@@ -44,6 +44,7 @@ func (b *Bootstrap) BootstrapHandler(ctx context.Context, wg *sync.WaitGroup, st
 	}
 
 	if ds.AsyncReadings() {
+		ds.LoggingClient.Info("开启AsyncReading")
 		ds.asyncCh = make(chan *models.AsyncValues, ds.config.Device.AsyncBufferSize)
 		go ds.processAsyncResults(ctx, wg, dic)
 	}

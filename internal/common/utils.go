@@ -9,6 +9,7 @@ package common
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"time"
 
@@ -73,6 +74,8 @@ func SendEvent(event *dtos.Event, correlationID string, dic *di.Container) {
 		ctx = context.WithValue(ctx, common.ContentType, encoding) // nolint: staticcheck
 		envelope := types.NewMessageEnvelope(bytes, ctx)
 		publishTopic := fmt.Sprintf("%s/%s/%s/%s", configuration.MessageQueue.PublishTopicPrefix, event.ProfileName, event.DeviceName, event.SourceName)
+		envelope1, err := json.Marshal(envelope)
+		lc.Debugf("Envelope : %s , PublishTopic : %s ", string(envelope1), publishTopic)
 		err = mc.Publish(envelope, publishTopic)
 		if err != nil {
 			lc.Errorf("Failed to publish event to MessageBus: %s", err)

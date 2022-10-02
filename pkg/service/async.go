@@ -9,6 +9,7 @@ package service
 
 import (
 	"context"
+	"encoding/json"
 	"regexp"
 	"sync"
 
@@ -70,12 +71,16 @@ func (s *DeviceService) sendAsyncValues(acv *sdkModels.AsyncValues, working chan
 	if len(acv.CommandValues) == 1 && acv.SourceName == "" {
 		acv.SourceName = acv.CommandValues[0].DeviceResourceName
 	}
+
+	commandValues, _ := json.Marshal(acv.CommandValues)
+	s.LoggingClient.Debugf("CommandValuesToEventDTO CommandValues : %s , DeviceName : %s , SourceName :%s ", string(commandValues), acv.DeviceName, acv.SourceName)
 	event, err := transformer.CommandValuesToEventDTO(acv.CommandValues, acv.DeviceName, acv.SourceName, dic)
 	if err != nil {
 		s.LoggingClient.Errorf("failed to transform CommandValues to Event: %v", err)
 		return
 	}
-
+	event1, _ := json.Marshal(event)
+	s.LoggingClient.Debugf("Event : %s ", string(event1))
 	common.SendEvent(event, "", dic)
 }
 
