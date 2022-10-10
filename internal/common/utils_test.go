@@ -20,8 +20,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shootingclub/device-sdk-go/internal/config"
-	"github.com/shootingclub/device-sdk-go/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/config"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
 )
 
 const (

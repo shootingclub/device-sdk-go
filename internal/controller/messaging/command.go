@@ -19,9 +19,9 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 	"github.com/edgexfoundry/go-mod-messaging/v2/pkg/types"
 
-	"github.com/shootingclub/device-sdk-go/internal/application"
-	sdkCommon "github.com/shootingclub/device-sdk-go/internal/common"
-	"github.com/shootingclub/device-sdk-go/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/application"
+	sdkCommon "git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/common"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
 )
 
 const (

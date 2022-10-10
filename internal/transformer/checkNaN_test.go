@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shootingclub/device-sdk-go/pkg/models"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models"
 )
 
 func Test_isNaN(t *testing.T) {

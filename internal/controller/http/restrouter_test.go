@@ -30,8 +30,8 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/shootingclub/device-sdk-go/internal/config"
-	"github.com/shootingclub/device-sdk-go/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/config"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
 )
 
 func TestAddRoute(t *testing.T) {

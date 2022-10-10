@@ -16,7 +16,7 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/startup"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 
-	"github.com/shootingclub/device-sdk-go/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
 )
 
 func BootstrapHandler(

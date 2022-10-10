@@ -9,9 +9,9 @@
 package main
 
 import (
-	"github.com/shootingclub/device-sdk-go"
-	"github.com/shootingclub/device-sdk-go/example/driver"
-	"github.com/shootingclub/device-sdk-go/pkg/startup"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/example/driver"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/startup"
 )
 
 const (

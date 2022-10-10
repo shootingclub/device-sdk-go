@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/shootingclub/device-sdk-go/internal/cache"
-	"github.com/shootingclub/device-sdk-go/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/cache"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
 
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"

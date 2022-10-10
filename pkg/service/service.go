@@ -19,12 +19,12 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/shootingclub/device-sdk-go/internal/clients"
-	sdkCommon "github.com/shootingclub/device-sdk-go/internal/common"
-	"github.com/shootingclub/device-sdk-go/internal/config"
-	"github.com/shootingclub/device-sdk-go/internal/container"
-	restController "github.com/shootingclub/device-sdk-go/internal/controller/http"
-	sdkModels "github.com/shootingclub/device-sdk-go/pkg/models"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/clients"
+	sdkCommon "git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/common"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/config"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
+	restController "git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/controller/http"
+	sdkModels "git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models"
 
 	bootstrapConfig "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/config"
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"

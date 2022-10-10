@@ -17,10 +17,10 @@ import (
 	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v2/dtos/common"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 
-	sdkCommon "github.com/shootingclub/device-sdk-go/internal/common"
-	"github.com/shootingclub/device-sdk-go/internal/config"
-	"github.com/shootingclub/device-sdk-go/internal/container"
-	"github.com/shootingclub/device-sdk-go/internal/telemetry"
+	sdkCommon "git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/common"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/config"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/telemetry"
 )
 
 // Ping handles the request to /ping endpoint. Is used to test if the service is working

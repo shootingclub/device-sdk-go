@@ -28,11 +28,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shootingclub/device-sdk-go/internal/cache"
-	"github.com/shootingclub/device-sdk-go/internal/config"
-	"github.com/shootingclub/device-sdk-go/internal/container"
-	sdkModels "github.com/shootingclub/device-sdk-go/pkg/models"
-	"github.com/shootingclub/device-sdk-go/pkg/models/mocks"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/cache"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/config"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
+	sdkModels "git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models/mocks"
 )
 
 const (

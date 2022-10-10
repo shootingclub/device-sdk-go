@@ -20,8 +20,8 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 	"github.com/gorilla/mux"
 
-	"github.com/shootingclub/device-sdk-go/internal/application"
-	sdkCommon "github.com/shootingclub/device-sdk-go/internal/common"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/application"
+	sdkCommon "git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/common"
 )
 
 func (c *RestController) GetCommand(w http.ResponseWriter, r *http.Request) {

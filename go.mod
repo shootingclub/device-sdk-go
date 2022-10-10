@@ -1,4 +1,4 @@
-module github.com/shootingclub/device-sdk-go
+module git.dev.tengwanweigu.com/common/device-sdk-go.git
 
 go 1.18
 

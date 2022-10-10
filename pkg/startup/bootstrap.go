@@ -11,7 +11,7 @@ import (
 	"context"
 
 	"github.com/gorilla/mux"
-	"github.com/shootingclub/device-sdk-go/pkg/service"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/service"
 )
 
 func Bootstrap(serviceName string, serviceVersion string, driver interface{}) {

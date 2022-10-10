@@ -10,7 +10,7 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 
-	sdkModels "github.com/shootingclub/device-sdk-go/pkg/models"
+	sdkModels "git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models"
 )
 
 // DeviceServiceName contains the name of device service struct in the DIC.

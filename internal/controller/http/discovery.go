@@ -13,8 +13,8 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 
-	"github.com/shootingclub/device-sdk-go/internal/autodiscovery"
-	"github.com/shootingclub/device-sdk-go/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/autodiscovery"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
 )
 
 func (c *RestController) Discovery(writer http.ResponseWriter, request *http.Request) {

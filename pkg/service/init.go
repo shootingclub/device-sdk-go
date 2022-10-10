@@ -14,9 +14,9 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 	"github.com/gorilla/mux"
 
-	"github.com/shootingclub/device-sdk-go/internal/cache"
-	"github.com/shootingclub/device-sdk-go/internal/provision"
-	"github.com/shootingclub/device-sdk-go/pkg/models"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/cache"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/provision"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models"
 )
 
 // Bootstrap contains references to dependencies required by the BootstrapHandler.

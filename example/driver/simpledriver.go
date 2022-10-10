@@ -26,9 +26,9 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/common"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 
-	"github.com/shootingclub/device-sdk-go/example/config"
-	sdkModels "github.com/shootingclub/device-sdk-go/pkg/models"
-	"github.com/shootingclub/device-sdk-go/pkg/service"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/example/config"
+	sdkModels "git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/service"
 )
 
 type SimpleDriver struct {

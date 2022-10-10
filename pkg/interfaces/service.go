@@ -12,7 +12,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/clients/logger"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 
-	"github.com/shootingclub/device-sdk-go/pkg/service"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/service"
 )
 
 // DeviceServiceSDK defines the interface for an Edgex Device Service SDK

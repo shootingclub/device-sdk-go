@@ -15,8 +15,8 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 
-	"github.com/shootingclub/device-sdk-go/internal/cache"
-	"github.com/shootingclub/device-sdk-go/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/cache"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
 )
 
 type manager struct {

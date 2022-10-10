@@ -19,7 +19,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/models"
 	"github.com/google/uuid"
 
-	"github.com/shootingclub/device-sdk-go/internal/cache"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/cache"
 )
 
 // AddDevice adds a new Device to the Device Service and Core Metadata

@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/shootingclub/device-sdk-go/internal/cache"
-	"github.com/shootingclub/device-sdk-go/internal/container"
-	"github.com/shootingclub/device-sdk-go/pkg/models"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/cache"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models"
 
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"

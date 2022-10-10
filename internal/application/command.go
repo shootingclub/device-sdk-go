@@ -19,11 +19,11 @@ import (
 
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/clients/http/utils"
 
-	"github.com/shootingclub/device-sdk-go/internal/cache"
-	sdkCommon "github.com/shootingclub/device-sdk-go/internal/common"
-	"github.com/shootingclub/device-sdk-go/internal/container"
-	"github.com/shootingclub/device-sdk-go/internal/transformer"
-	sdkModels "github.com/shootingclub/device-sdk-go/pkg/models"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/cache"
+	sdkCommon "git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/common"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/transformer"
+	sdkModels "git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models"
 
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"

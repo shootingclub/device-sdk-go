@@ -23,7 +23,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 	"github.com/gorilla/mux"
 
-	"github.com/shootingclub/device-sdk-go/internal/controller/http/correlation"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/controller/http/correlation"
 )
 
 type RestController struct {

@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/shootingclub/device-sdk-go/internal/container"
-	"github.com/shootingclub/device-sdk-go/pkg/models/mocks"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/pkg/models/mocks"
 )
 
 var mockDevice = requests.AddDeviceRequest{

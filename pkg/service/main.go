@@ -22,10 +22,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/shootingclub/device-sdk-go/internal/autodiscovery"
-	"github.com/shootingclub/device-sdk-go/internal/autoevent"
-	"github.com/shootingclub/device-sdk-go/internal/container"
-	"github.com/shootingclub/device-sdk-go/internal/controller/messaging"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/autodiscovery"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/autoevent"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/controller/messaging"
 )
 
 const EnvInstanceName = "EDGEX_INSTANCE_NAME"

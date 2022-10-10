@@ -15,7 +15,7 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/dtos/requests"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/errors"
 
-	"github.com/shootingclub/device-sdk-go/internal/container"
+	"git.dev.tengwanweigu.com/common/device-sdk-go.git/internal/container"
 )
 
 func (c *RestController) ValidateDevice(writer http.ResponseWriter, request *http.Request) {
